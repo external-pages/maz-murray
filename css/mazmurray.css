@@ -8,23 +8,9 @@
 }
 
 html, body {
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
     background-color: orange;
 }
-
-/*@font-face {
-    font-family: authentic;
-    src: url("/fonts/AUTHENTICSans-60.woff2") format("woff2");
-    src: url("/fonts/AUTHENTICSans-60.woff") format("woff")
-}
-
-@font-face {
-    font-family: ming;
-    src: url("/fonts/liu19.ttf") format("truetype")
-}*/
 
 p {
 	margin: 10px;
