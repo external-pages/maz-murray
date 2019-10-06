@@ -33,6 +33,11 @@ a.dots {
     color: orange;
 }
 
+img, video {
+    margin: 40px;
+    max-width: calc(100% - 80px);
+}
+
 
 
 
