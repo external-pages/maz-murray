@@ -9,26 +9,31 @@
 
 html, body {
     -webkit-font-smoothing: antialiased;
-    background-color: orange;
 }
 
 p {
 	margin: 10px;
 }
 
-div.justified {
-    display: flex;
-  	align-items: center;
-  	justify-content: center;
+textarea {
+    width:80vw;
+    border: 0px;
+	font-family: arial, sans-serif;
+    font-weight: 100;
+    font-size: 3em;
+    margin: 40px;
 }
 
-textarea.maz {
-	padding: 40px;
-	margin: 10px;
-    width: 80vw;
-	font-family: "Comic Sans MS", cursive, sans-serif;
-    font-weight: 100;
-    font-size: 30px;
-    background-color: orange;
+a.dots {
+    margin: 40px;
+    cursor: pointer;
+    font-size: 6em;
+    display: flex;
+    width: 1em;
+    color: orange;
 }
+
+
+
+
 
