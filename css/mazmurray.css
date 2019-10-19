@@ -9,15 +9,22 @@
 
 html, body {
     -webkit-font-smoothing: antialiased;
+    display: flex;
+    justify-content: center;
+
+}
+
+.content {
+    width: 50vw;
+    margin: 40px;
 }
 
 textarea {
-    width:80vw;
+    width: 50vw;
     border: 0px;
 	font-family: arial, sans-serif;
     font-weight: 100;
     font-size: 2em;
-    margin: 40px;
 }
 
 a.dots {
@@ -29,19 +36,23 @@ a.dots {
 }
 
 img, video {
-    margin: 40px;
-    max-width: calc(100% - 80px);
+    margin-top: 80px;
+    margin-bottom: 80px;
+    max-width: 100%;
 }
 
 .notice {
     position: fixed;
     margin: 40px;
-    width: 80px;
+    width: 40px;
     right: 0;
     top: 0;
     font-family: arial, sans-serif;
+    font-size: 0.9em;
     color: orange;
     text-align: right;
+    border: 1px solid orange;
+    padding: 5px;
 }
 
 
