@@ -7,11 +7,15 @@
     outline: none;
 }
 
+@font-face {
+    font-family: 'chancery';
+    src: url('../../fonts/urw_chancery_l_medium_italic.ttf') format('truetype');
+}
+
 html, body {
     -webkit-font-smoothing: antialiased;
     display: flex;
     justify-content: center;
-
 }
 
 .content {
@@ -55,7 +59,39 @@ img, video {
     padding: 5px;
 }
 
+#myDIV, #end {
+    position: fixed;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
 
+.endbtn {
+    width: 50vw;
+    border: 0px;
+    font-family: arial, sans-serif;
+    font-weight: 100;
+    font-size: 2em;
+    outline: none;
+    text-align: left;
+    color: orange;
+    cursor: pointer;
+}
 
+p#end {
+    font-family: chancery;
+    font-size: 16em;
+} 
+
+#end {
+    animation: MoveUpDown 15s linear infinite;
+}
+
+@keyframes MoveUpDown {
+    0% { top: -10vh; }
+    100% { top: 140vh; }
+}
 
 

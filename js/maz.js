@@ -48,6 +48,18 @@ $(document).ready(function() {
 
 });
 
+	function picture() {
+	  var x = document.getElementById("myDIV");
+	  if (x.style.display === "none") {
+	    x.style.display = "block";
+	  } else {
+	    x.style.display = "none";
+	  }
+	  document.getElementById("end").innerHTML = "The End";
+	}
+
+
+
 // window.onload = function() {
 // 	// Video
 // 	var video = document.getElementById("video");
