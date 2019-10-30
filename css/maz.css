@@ -59,6 +59,23 @@ img, video {
     padding: 5px;
 }
 
+button {
+    font-size: 2em;
+    vertical-align: top;
+    cursor: pointer;
+    margin-bottom: 33px;
+    color: black;
+    padding: 5px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex video {
+    width: 50%;
+}
+
 #myDIV, #end {
     position: fixed;
     margin: 0;

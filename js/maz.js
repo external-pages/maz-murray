@@ -57,26 +57,3 @@ $(document).ready(function() {
 	  }
 	  document.getElementById("end").innerHTML = "The End";
 	}
-
-
-
-// window.onload = function() {
-// 	// Video
-// 	var video = document.getElementById("video");
-// 	// Buttons
-// 	var playButton = document.getElementById("play-pause");
-
-// 	playButton.addEventListener("click", function() {
-// 	  	if (video.paused == true) {
-// 		    // Play the video
-// 		    video.play();
-// 		    // Update the button text to 'Pause'
-// 		    playButton.innerHTML = "Pause";
-// 		  } else {
-// 		    // Pause the video
-// 		    video.pause();
-// 	    // Update the button text to 'Play'
-// 	    playButton.innerHTML = "Play";
-// 	  	}
-// 	});
-// }
